@@ -1,4 +1,4 @@
-# ProgressCircleBar
+# GradientProgressCircleBar
 
 A customizable gradient progress circle bar component for React. This component allows you to display a circular progress bar with a variety of customization options including size, stroke width, colors, text, and more.
 

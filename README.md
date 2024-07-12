@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ProgressCircleBar
 
-## Getting Started
+A customizable gradient progress circle bar component for React. This component allows you to display a circular progress bar with a variety of customization options including size, stroke width, colors, text, and more.
 
-First, run the development server:
+## Installation
+
+Install the package using npm:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install gradient-progress-circle-bar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Props
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The ProgressCircleBar component accepts the following props:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+• value (number, required): The progress value as a percentage (0-100).
 
-## Learn More
+• remainingColor (string, optional): The color for the remaining portion of the circle. Default is "white".
 
-To learn more about Next.js, take a look at the following resources:
+• size (number, optional): The size (diameter) of the progress circle in pixels. Default is 100.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+• strokeWidth (number, optional): The width of the progress circle's stroke in pixels. Default is 10.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+• progressColors (string[], optional): An array of colors for the gradient of the progress circle. Default is ["#ffffff", "#b3c0ff", "#b3e0ff", "#4d16ff"].
 
-## Deploy on Vercel
+• innerColor (string, optional): The background color of the inner circle. Default is "white".
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+• clockwise (boolean, optional): The direction of the progress (true for clockwise, false for counterclockwise). Default is true.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+• label (string, optional): The text displayed inside the circle. Default is "".
+
+• fontSize (number, optional): The font size of the label text. Default is 16.
+
+• fontColor (string, optional): The color of the label text. Default is "black".
+
+• fontWeight (100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "normal" | "bold" | "bolder" | "lighter", optional): The font weight of the label text. Default is "normal".

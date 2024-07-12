@@ -1,0 +1,33 @@
+{
+  "name": "progress-circle-bar",
+  "version": "1.0.0",
+  "description": "A customizable progress circle bar component for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0"
+  },
+  "keywords": [
+    "react",
+    "progress",
+    "gradient",
+    "circle",
+    "bar",
+    "component"
+  ],
+  "author": "Pratyush Bhattacharya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PratyushBhattacharya123/gradient-progress-circle-bar.git"
+  }
+}

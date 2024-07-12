@@ -34,15 +34,25 @@ export default App;
 The ProgressCircleBar component accepts the following props:
 
 • value (number, required): The progress value as a percentage (0-100).
+
 • remainingColor (string, optional): The color for the remaining portion of the circle. Default is "white".
+
 • size (number, optional): The size (diameter) of the progress circle in pixels. Default is 100.
+
 • strokeWidth (number, optional): The width of the progress circle's stroke in pixels. Default is 10.
+
 • progressColors (string[], optional): An array of colors for the gradient of the progress circle. Default is ["#ffffff", "#b3c0ff", "#b3e0ff", "#4d16ff"].
+
 • innerColor (string, optional): The background color of the inner circle. Default is "white".
+
 • clockwise (boolean, optional): The direction of the progress (true for clockwise, false for counterclockwise). Default is true.
+
 • label (string, optional): The text displayed inside the circle. Default is "".
+
 • fontSize (number, optional): The font size of the label text. Default is 16.
+
 • fontColor (string, optional): The color of the label text. Default is "black".
+
 • fontWeight (100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "normal" | "bold" | "bolder" | "lighter", optional): The font weight of the label text. Default is "normal".
 
 ## Example with All Props

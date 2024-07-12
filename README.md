@@ -10,25 +10,6 @@ Install the package using npm:
 npm install gradient-progress-circle-bar
 ```
 
-## Usage
-
-import React from "react";
-import ProgressCircleBar from "progress-circle-bar";
-
-const App = () => {
-return (
-  <div>
-    <ProgressCircleBar 
-      value={75} 
-      label="75%" 
-      fontWeight="bold" 
-    />
-  </div>
-  );
-};
-
-export default App;
-
 ## Props
 
 The ProgressCircleBar component accepts the following props:
@@ -54,30 +35,3 @@ The ProgressCircleBar component accepts the following props:
 • fontColor (string, optional): The color of the label text. Default is "black".
 
 • fontWeight (100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "normal" | "bold" | "bolder" | "lighter", optional): The font weight of the label text. Default is "normal".
-
-## Example with All Props
-
-import React from "react";
-import ProgressCircleBar from "progress-circle-bar";
-
-const App = () => {
-return (
-  <div>
-    <ProgressCircleBar
-      value={75}
-      remainingColor="lightgray"
-      size={150}
-      strokeWidth={15}
-      progressColors={["#ff0000", "#00ff00", "#0000ff"]}
-      innerColor="#f0f0f0"
-      clockwise={false}
-      label="75%"
-      fontSize={20}
-      fontColor="blue"
-      fontWeight="bold"
-    />
-  </div>
-  );
-};
-
-export default App;
